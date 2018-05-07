@@ -8,9 +8,15 @@
 export default {
   name: 'c_datetime',
   data () {
-
+    var getuid=function(){
+      return Math.floor(Math.random()*10000,6)
+    }
+     var random=getuid();
+    while($('#'+this.id+random).length){
+      random=getuid()
+    }
     return {
-      random:Math.floor(Math.random()*10000,6)
+      random:random
     }
   },
   props:['id','type','range','format','value','min','max','trigger','show','position','zindex','showBottom','btns','calendar','mark','done','vWmodel'],
