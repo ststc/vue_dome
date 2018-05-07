@@ -2,7 +2,7 @@
   <div id="app">
      <h1>WIKE的前端组建系统</h1>
      <div>
-       <a href="/datetime">日期插件</a>
+       <a href="#/datetime">日期插件</a>
      </div>
      <router-view></router-view>
   </div>
