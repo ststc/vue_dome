@@ -1,6 +1,6 @@
 # vue-dome
 
-> A Vue.js project
+> 一个VUE的常用组建封装,目的是让vue更好的完成工作,尽量少些代码,把常用的jQ插件等其他插件封装过来
 
 ## Build Setup
 
